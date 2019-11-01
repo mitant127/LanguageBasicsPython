@@ -12,7 +12,7 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-Lesson-1/.idea
+**/.idea
 
 # Generated files
 .idea/**/contentModel.xml
@@ -208,7 +208,7 @@ dmypy.json
 pyvenv.cfg
 .env
 .venv
-Lesson-1/.venv
+**/.venv
 env/
 venv/
 ENV/
