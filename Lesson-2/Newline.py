@@ -8,5 +8,5 @@ str = string.split()
 i = 0
 while i < len(str):
     s = str[i]
-    print(f"{i + 1} {s[:9]}")
+    print(f"{i + 1} {s[:10]}")
     i += 1
