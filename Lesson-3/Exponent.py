@@ -9,7 +9,7 @@ def exponent(x, y):
     while i < abs(y):
         xy = xy * x
         i += 1
-    return 1 / xy
+    return f"{1/xy:.4}"
 
 
 print(exponent(4, -3))
