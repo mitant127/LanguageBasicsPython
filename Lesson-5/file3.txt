@@ -1,0 +1,14 @@
+Ivanov 21000
+Petrov 13000
+Sidorov 17000
+Pechkin 15000
+Musk 23000
+Newton 27000
+Gates 22000
+deGrasseTyson 25000
+Sagan 19999
+Feynman 24000
+Hawking 30000
+Curie 20000
+Lomonosov 25000
+Mendeleev 29000
