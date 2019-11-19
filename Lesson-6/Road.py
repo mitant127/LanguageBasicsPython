@@ -19,5 +19,5 @@ class Road:
         print(f"{(self.lenght * self.widht * 25 * depth)/1000} Ton")
 
 
-road_1 = Road(int(input("Enter lenght Road")), int(input("Enter widht Road")))
-road_1.mass(int(input("Enter depth Road")))
+road_1 = Road(int(input("Enter lenght Road ")), int(input("Enter widht Road ")))
+road_1.mass(int(input("Enter depth Road ")))

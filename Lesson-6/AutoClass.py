@@ -12,8 +12,8 @@
 # from time import sleep
 import time
 
-class TrafficLight:
 
+class TrafficLight:
     __color = "Red"
 
     def running(self):
