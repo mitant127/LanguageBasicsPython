@@ -8,14 +8,13 @@
 # Position, передать данные, проверить значения атрибутов, вызвать методы
 # экземпляров).
 
-income = {"wage": 35000, "bonus": 10000}
 
 class Worker:
-    def __init__(self, name, surname, position):
+    def __init__(self, name, surname, position,  wage, bonus):
         self.name = name
         self.surname = surname
         self.position = position
-        self._income = income.copy()
+        self._income = {"wage": wage, "bonus": bonus}
 
 
 class Position(Worker):
@@ -24,6 +23,7 @@ class Position(Worker):
     def get_total_income(self):
         print(f"Total income: {int(self._income.get('wage')) + int(self._income.get('wage'))}")
 
-worker = Position('Anton', 'Mitushkin', 'ingenier')
+
+worker = Position('Anton', 'Mitushkin', 'ingenier', 35000, 10000)
 worker.get_full_name()
 worker.get_total_income()
