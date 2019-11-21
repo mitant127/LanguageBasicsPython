@@ -24,9 +24,8 @@ class Clothes(ABC):
 
 class Coat(Clothes):
     def __init__(self, name, size):
-        super().__init__(size)
+        super().__init__(name)
         self.size = size
-        self.name = name
 
     @property
     def tissue_consumption(self):
@@ -35,9 +34,8 @@ class Coat(Clothes):
 
 class Suit(Clothes):
     def __init__(self, name, height):
-        super().__init__(height)
+        super().__init__(name)
         self.height = height
-        self.name = name
 
     @property
     def tissue_consumption(self):
